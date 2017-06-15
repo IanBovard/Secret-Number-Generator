@@ -5,11 +5,3 @@ module.exports = function() {
     return secretNumber;
   };
 };
-var myNumber = module.exports();
-console.log(myNumber());
-console.log(myNumber());
-console.log(myNumber());
-var myNewNumber = module.exports();
-console.log(myNewNumber());
-console.log(myNewNumber());
-console.log(myNewNumber());
